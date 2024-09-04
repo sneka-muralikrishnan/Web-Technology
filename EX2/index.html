@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Types Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .internal-style {
+            color: blue;
+            border: 2px solid blue;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: green;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CSS Types Demonstration</h1>
+
+    <div style="color: red; border: 2px solid red; padding: 10px; margin-bottom: 20px;">
+        <p>This is a div with inline CSS.</p>
+    </div>
+    <div class="internal-style">
+        <p>This is a div with internal CSS.</p>
+    </div>
+    <div class="external-style">
+        <p>This is a div with external CSS.</p>
+    </div>
+</body>
+</html>
